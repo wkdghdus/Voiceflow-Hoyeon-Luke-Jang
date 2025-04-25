@@ -1,0 +1,12 @@
+langchain-core
+langchain_community
+langchain
+langsmith
+langchain-openai
+langchain-anthropic
+langgraph
+langgraph-cli
+langgraph-sdk
+pydantic
+pydantic_core
+tavily-python

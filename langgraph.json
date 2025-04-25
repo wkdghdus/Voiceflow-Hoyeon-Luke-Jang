@@ -1,0 +1,11 @@
+{
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "prospect_collection_agent": "./agents/prospect_collection_agent/graph.py:graph",
+    "outreach_agent": "./agents/outreach_agent/graph.py:graph",
+    "reply_agent": "./agents/reply_agent/graph.py:graph"
+  },
+  "env": ".env"
+}
