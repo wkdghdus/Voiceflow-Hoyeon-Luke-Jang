@@ -17,8 +17,10 @@ Scrapes and stores potential leads by searching keywords on:
 - Google
 
 **Graph Flow:**
+![Screenshot 2025-04-25 at 19 19 34](https://github.com/user-attachments/assets/626bcd57-370d-4dcb-a204-4af08e1b6314)
 
-- `create_query` → `search_linkedin`, `search_google`, `search_twitter` → `wait` → `append_to_db`
+
+
 
 
 
@@ -29,8 +31,7 @@ Scrapes and stores potential leads by searching keywords on:
 Generates and sends a personalized message using Voiceflow’s value props. It includes a basic reflection loop to validate and improve outreach messaging.
 
 **Graph Flow:**
-
-- `check_new_data` → `create_reach_out_message` → `reflection` → `send_message` → `update_db`
+![Screenshot 2025-04-25 at 19 19 42](https://github.com/user-attachments/assets/47987043-d5fe-4520-b49c-79050fc0efb9)
 
 
 
@@ -41,8 +42,9 @@ Generates and sends a personalized message using Voiceflow’s value props. It i
 Handles responses and generates appropriate follow-ups, again including a reflection step for quality.
 
 **Graph Flow:**
+![Screenshot 2025-04-25 at 19 19 51](https://github.com/user-attachments/assets/4ec7a93d-fb17-416b-a2c6-df53494d57d0)
 
-- `check_response` → `create_reply` → `reflection` → `send_message`
+
 
 
 
